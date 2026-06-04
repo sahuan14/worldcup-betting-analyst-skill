@@ -95,8 +95,6 @@ https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?ch
 
 不再需要交叉矩阵法或抓额外页面——**赔率和单关状态在同一个 JSON 响应里一次拿齐。**
 
-> **实测验证(2026-06-04 国际友谊赛):** HAD/HHAD 所有场次 `single: 0`（仅过关）,CRS/TTG/HAFU 所有场次 `single: 1`（支持单关）。与竞彩规则完全吻合:友谊赛胜平负不开单关,比分/总进球/半全场开单关。世界杯正赛期间,HAD/HHAD 的 `single` 字段会变为 1。
-
 #### C. JSON 关键字段速查
 
 每场比赛对象中的常用字段:
