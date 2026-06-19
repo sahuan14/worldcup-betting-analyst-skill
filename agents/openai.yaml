@@ -1,0 +1,7 @@
+interface:
+  display_name: "World Cup Betting Analyst"
+  short_description: "Analyze Jingsai odds, risks, and picks"
+  default_prompt: "Use $worldcup-betting-analyst to analyze tonight's World Cup Jingsai matches with odds, risk notes, and responsible betting guidance."
+
+policy:
+  allow_implicit_invocation: true
